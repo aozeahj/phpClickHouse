@@ -1,19 +1,19 @@
 {
-  "name": "smi2/phpclickhouse",
+  "name": "aozeahj/phpclickhouse",
   "type": "library",
   "description": "PHP ClickHouse Client",
   "keywords": ["clickhouse", "driver", "client", "curl", "http", "HTTP client", "php"],
-  "homepage": "https://github.com/smi2/phpClickHouse",
+  "homepage": "https://github.com/aozeahj/phpClickHouse",
   "license": "MIT",
   "authors": [
     {
-      "name": "Igor Strykhar",
-      "email": "isublimity@gmail.com",
-      "homepage": "https://github.com/isublimity"
+      "name": "aozeahj",
+      "email": "aozeahj@gmail.com",
+      "homepage": ""
     }
   ],
   "require": {
-    "php": "^7.1",
+    "php": "^7.0",
     "ext-curl": "*"
   },
   "require-dev": {
