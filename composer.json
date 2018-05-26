@@ -15,6 +15,7 @@
   "require": {
     "php": "^7.0",
     "ext-curl": "*"
+    
   },
   "require-dev": {
     "doctrine/coding-standard": "^4.0",
