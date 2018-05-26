@@ -88,6 +88,15 @@ class Http
     }
 
     /**
+     * @param CurlerRolling $curler
+     */
+    public function setDiyCurler(CurlerRolling $curler){
+        if ($curler instanceof  CurlerRolling){
+            $this->_curler = $curler;
+        }
+    }
+
+    /**
      * @return CurlerRolling
      */
     public function getCurler()

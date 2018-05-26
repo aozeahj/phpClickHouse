@@ -107,12 +107,17 @@ class Client
         {
             $this->https($connect_params['https']);
         }
-
-
-
-
     }
 
+
+    public function setCurler( $curler){
+        $this->_transport->setCurler($curler);
+    }
+
+
+    public function getCurler(){
+        return $this->_transport->getCurler();
+    }
     /**
      * if the user has only read in the config file
      *
