@@ -186,6 +186,12 @@ class Client
        return $this->settings()->max_execution_time($timeout);
     }
 
+
+    public function setMemoryLimit($memory)
+    {
+        return $this->settings()->max_execution_time($memory);
+    }
+
     /**
      * Timeout
      *

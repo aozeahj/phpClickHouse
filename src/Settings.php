@@ -33,6 +33,7 @@ class Settings
             'extremes'                => false,
             'readonly'                => true,
             'max_execution_time'      => 20,
+            'max_memory_usage'        => 0,
             'enable_http_compression' => 0,
             'https'                   => false
         ];
@@ -172,6 +173,16 @@ class Settings
     public function max_execution_time($time)
     {
         $this->set('max_execution_time', $time);
+        return $this;
+    }
+
+    /**
+     * @param $memory
+     * @return $this
+     */
+    public function max_memory_usage($memory)
+    {
+        $this->set('max_memory_usage', $memory);
         return $this;
     }
 
